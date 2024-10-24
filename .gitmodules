@@ -1,0 +1,3 @@
+[submodule "src/flockwave/server/ext/x-sim"]
+	path = src/flockwave/server/ext/x-sim
+	url = https://github.com/KnightLightUCF/x-sim.git
