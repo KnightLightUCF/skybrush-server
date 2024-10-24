@@ -114,4 +114,16 @@ EXTENSIONS = {
         "enabled": True,
         # "route": "/webui",
     },
+    "x-sim": {
+        "arm_after_boot": True,
+        "add_noise": False,
+        "count": 5,
+        "delay": 0.2,
+        "enabled": False,
+        "id_format": "{0}",
+        "origin": [18.915125, 47.486305, 215],  # Fahegy
+        # "origin": [19.062159, 47.473360],  # ELTE kert
+        "orientation": 59,
+        "takeoff_area": {"type": "grid", "spacing": 5},
+    },
 }
